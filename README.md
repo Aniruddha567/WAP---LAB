@@ -4,3 +4,7 @@
 ## Lab1
 ###   A 
 ###   B
+## Lab2
+### 3 questions
+## Lab3
+### 6 question
