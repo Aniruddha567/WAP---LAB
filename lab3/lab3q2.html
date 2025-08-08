@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Form</title>
+    <style>
+        body {
+            background-color: #edf1f4;
+            
+        }
+        .form-container {
+            width: 400px;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        label {
+            font-size: 20px;
+            display: inline-block;
+            width: 150px;
+            margin-bottom: 15px;
+        }
+        input[type="text"], input[type="email"], input[type="date"], input[type="number"] {
+            width: 220px;
+            padding: 8px;
+            background-color: #a8a8a8;
+            border: none;
+            border-radius: 6px;
+        }
+        input[type="submit"], input[type="reset"] {
+            background-color: #a8a8a8;
+            border: none;
+            padding: 12px 25px;
+            margin-top: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+        input[type="submit"]:hover, input[type="reset"]:hover {
+            background-color: #8f8f8f;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1><b>HTML Form</b></h1>
+        <form>
+            <label>First Name :</label>
+            <input type="text"><br>
+
+            <label>Last Name :</label>
+            <input type="text"><br>
+
+            <label>Date of Birth :</label>
+            <input type="date"><br>
+
+            <label>Email id :</label>
+            <input type="email"><br>
+
+            <label>Mobile Number :</label>
+            <input type="number"><br>
+
+            <input type="submit" value="SUBMIT">
+            <input type="reset" value="RESET">
+        </form>
+    </div>
+</body>
+</html>

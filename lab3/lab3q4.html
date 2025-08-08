@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question 4</title>
+    <style>
+        body {
+            background-color: #d8483ed2;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        form {
+            background-color: #4ee6e1;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+        }
+        input[type="text"],
+        input[type="tel"],
+        input[type="email"],
+        input[type="password"],
+        textarea,
+        input[type="submit"],
+        select {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+        input[type="submit"] {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+        input[type="submit"]:active {
+            background-color: #1e7e34;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+        }
+    </style>
+
+
+
+
+</head>
+<body>
+    <form  >
+        <h1>Student Registration Form</h1>
+        <hr>
+        <label for="">first name</label><br>
+        <input type="text" name="first_name" id="first_name" required><br><br>
+        <label for="">middle name</label><br>
+        <input type="text" name="middle_name" id="middle_name"><br><br>
+        <label for="">last name</label><br>
+        <input type="text" name="last_name" id="last_name" required><br><br>
+        Course:
+        <select name="Course" id="" aria-placeholder="Course">
+            <option value="BCA">BCA</option>
+            <option value="BBA">BBA</option>
+            <option value="BSc">BSc</option>
+            <option value="MCA">MCA</option>
+            <option value="MBA">MBA</option>
+
+        </select><br><br>
+        Gender: <br>
+        <input type="radio" name="Gender">Male</input>
+        <input type="radio" name="Gender">Female</input>
+        <input type="radio" name="Gender">Other</input><br><br>
+        Phone : <br> <input type="tel" name="phone" id="phone" required><br><br>
+        Current Address : <br>
+        <textarea name="current_address" id="current_address" cols="60" rows="4" required></textarea><br><br>
+        Email : <br>
+        <input type="email" name="email" id="email" required><br><br>
+        Password : <br>
+        <input type="password" name="password" id="password" required><br><br>
+        Confirm Password : <br>
+        <input type="password" name="confirm_password" id="confirm_password" required><br><br> 
+        <input type="submit" value="Register">
+
+
+    </form>
+</body>
+</html>
