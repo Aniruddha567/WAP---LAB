@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniruddha's site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        
+        #sidebar{
+            float: left;
+            background-color: #163853;
+            color: white;
+            padding: 20px;
+            width: 280px;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+        
+        #rightbar{
+            float: right;
+            width: calc(100% - 320px);
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        
+        img{
+            display: block;
+            margin: 0 auto 20px auto;
+            border: 5px solid white;
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+        }
+        
+        .heading1{
+            font-family: cursive;
+            margin-bottom: 8px;
+            color: #fff;
+        }
+        
+        hr {
+            border: none;
+            height: 1px;
+            background-color: rgba(255, 255, 255, 0.3);
+            margin: 8px 0 15px 0;
+        }
+        
+        #rightbar hr {
+            background-color: #ddd;
+            height: 2px;
+            background-color: #555;
+
+        }
+        
+        #tagline {
+            margin-bottom: 25px;
+        }
+        
+        #tagline h1 {
+            margin-bottom: 5px;
+            color: #163853;
+        }
+        
+        #tagline h2 {
+            margin-top: 0;
+            font-weight: normal;
+            color: #555;
+        }
+        
+        .heading {
+            color: #163853;
+            margin-bottom: 8px;
+            font-family: cursive;
+        }
+        
+        ul, ol {
+            padding-left: 20px;
+            margin-top: 8px;
+        }
+        
+        li {
+            margin-bottom: 5px;
+        }
+        
+        body::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        @media (max-width: 768px) {
+            #sidebar, #rightbar {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="sidebar">
+        <div id="image">
+            <img src="image.png" alt="person picture">
+        </div>
+        <div>
+            <h2 class="heading1">Contact</h2>
+            <hr>
+            937385948 <br>
+            andygamerz715@gmail.com <br>
+            pune, maharashtra <br>
+            <a href="https://www.linkedin.com/in/aniruddha-panchal-66408a28a/">Linked in</a> <br>
+        </div>
+        <div>
+            <h2 class="heading1">Education</h2>
+            <hr>
+            <ol>
+                <li>B.Tech CSE from PCET's Pimpri Chinchwad University</li>
+                <li>HSC from JVK</li>
+            </ol>
+        </div>
+        <div>
+            <h2 class="heading1">Skills</h2>
+            <hr>
+            <ul>
+                <li>ML</li>
+                <li>Web dev</li>
+                <li>Python</li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="heading1">Languages</h2>
+            <hr>
+            <ul>
+                <li>English</li>
+                <li>Marathi</li>
+                <li>Hindi</li>
+                <li>Japanese</li>     
+            </ul>
+        </div>
+    </div>
+
+    <div id="rightbar">
+        <div id="tagline">
+            <h1>Aniruddha Panchal</h1>
+            <h2>Code player : The one loves to play with code</h2>
+        </div>
+        <div>
+            <h3 class="heading">Profile</h3>
+            <hr>
+Data Science Intern @ Sabudh Foundation | B.Tech Engineering Student | ML Enthusiast | Passionate About AI & Data Innovation
+        </div>
+        <div>
+            <h3 class="heading">Work Experience</h3>
+            <hr>
+            <ul>
+                <li>Data Science Intern at sabudh</li>
+                   
+                <li>Hackathon Lead</li>
+                    <ol>
+                        <li>Led team of 5 in spectrum 2023 at pccoe  Till final round</li>
+                    </ol>
+                
+                <li>Project exhibition</li>
+                    <ol>
+                        <li>Developed a software for Physics labs automation</li>
+                        <li>Made automated car using Iot</li>
+                    </ol>
+                <li> Projects</li>
+                    <ol>
+                        <li>Cat emotion detector</li>
+                        <li>File agent</li>
+                        <li>Football detector</li>
+                    </ol>
+            </ul>
+        </div>
+        <div>
+            <h3 class="heading">Certifications</h3>
+            <hr>
+            <ul>
+                <li>Deep Learning spcecialization</li>
+                    <ol>
+                        <li>Deeplearning.ai </li>
+                    </ol>
+
+                <li>Machine Learning for alll</li>
+                    <ol>
+                        <li>London University</li>
+                    </ol>
+                
+                <li>Machine learning crash course </li>
+                    <ol>
+                        <li>Google developers</li>
+                    </ol>
+                <li>Machine learning intern(virtual internship)</li>
+                <ol><li>AICTE EduSkill</li></ol>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
